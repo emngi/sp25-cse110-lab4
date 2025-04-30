@@ -48,7 +48,7 @@
 15. The double equal == is loose comparison and does the equality test with type conversion whereas the triple equal === is a strict comparison that checks without any type conversions.
 16. The file with the requested loop is at this [link](part2-question16.js)
 17. The result will be `[2, 4, 6]`. The function passes in an array `[1, 2, 3]` and the doSomething function multiplies a number by 2. So each number in the array calls the doSomething function and the result of this function call is added to the return array `newArr`. 
-18. The file with the requested loop is at this [link](part2-question18.js)
+18. The file with the requested fix is at this [link](part2-question18.js)
 19. The output of the above code is
     `
     1
