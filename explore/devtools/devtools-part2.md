@@ -1,0 +1,2 @@
+1. The bug happened because the value type retrieved from the input elements is a string. These values, taken from num1 and num2, are used in the calculateSum function. As a result, when result = num1 + num2 is executed it performs string concatenation.
+2. I would fix it by converting num1 and num2 from strings to numbers using parseInt(). This so they are treated as numbers and the addition works as intended.
